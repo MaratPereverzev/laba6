@@ -2,7 +2,7 @@
 
 Полнофункциональная демонстрационная система управления производством (MES) — фронтенд на React + Vite, бэкенд на FastAPI, PostgreSQL и Redis. Проект демонстрирует мониторинг оборудования в реальном времени, управление заказами, сбор KPI и простую аналитику для выявления узких мест.
 
-![Dashboard](lab6/docs/screenshots/dashboard.svg)
+![Dashboard](lab6/docs/screenshots/dashboard.png)
 
 ---
 
@@ -48,9 +48,7 @@ docker compose up --build
 │  ├─ src/
 │  ├─ Dockerfile
 │  └─ package.json
-├─ docker-compose.yml
-└─ lab6/                   # (frontend+backend copy used in lab6 folder)
-   └─ docs/screenshots/    # SVG-заглушки скриншотов
+└─ docker-compose.yml
 ```
 
 ## Возможности
@@ -87,15 +85,8 @@ docker compose up --build
 - `OrdersManager` — создание/фильтрация заказов
 - `Login` / `Register` — аутентификация
 
-![Equipment manager](lab6/docs/screenshots/equipment.svg)
+![Equipment manager](lab6/docs/screenshots/equipment.png)
 
-## Скриншоты (заглушки)
-
-- Dashboard: `lab6/docs/screenshots/dashboard.svg`
-- Equipment manager: `lab6/docs/screenshots/equipment.svg`
-- Orders manager: `lab6/docs/screenshots/orders.svg`
-
-Замените эти SVG-файлы реальными PNG/JPG скриншотами в папке `lab6/docs/screenshots/`.
 
 ## Запуск локально (без Docker)
 
