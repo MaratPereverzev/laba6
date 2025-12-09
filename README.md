@@ -2,7 +2,7 @@
 
 Полнофункциональная демонстрационная система управления производством (MES) — фронтенд на React + Vite, бэкенд на FastAPI, PostgreSQL и Redis. Проект демонстрирует мониторинг оборудования в реальном времени, управление заказами, сбор KPI и простую аналитику для выявления узких мест.
 
-![Dashboard](lab6/docs/screenshots/dashboard.png)
+![Dashboard](docs/screenshots/dashboard.png)
 
 ---
 
@@ -85,7 +85,7 @@ docker compose up --build
 - `OrdersManager` — создание/фильтрация заказов
 - `Login` / `Register` — аутентификация
 
-![Equipment manager](lab6/docs/screenshots/equipment.png)
+![Equipment manager](docs/screenshots/equipment.png)
 
 
 ## Запуск локально (без Docker)
@@ -144,13 +144,3 @@ INITIAL_ADMIN_PASSWORD=admin123
 - Export PDF/Excel отчетов
 - Интеграция с PLC/SCADA через MQTT/OPC UA
 - ML-прогноз отказов и оптимизация расписания
-
----
-
-Если хотите, я могу:
-
-- Встроить ваши реальные скриншоты в `docs/screenshots`
-- Подготовить production Docker image
-- Подключить WebSocket для live-обновлений
-
-Скажите, что сделать следующим шагом.
