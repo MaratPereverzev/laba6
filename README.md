@@ -225,7 +225,3 @@ INITIAL_ADMIN_PASSWORD=admin123
 - Export PDF/Excel отчетов
 - Интеграция с PLC/SCADA через MQTT/OPC UA
 - ML-прогноз отказов и оптимизация расписания
-
----
-
-Если хотите, могу заменить заглушки реальными скриншотами (переместите файлы в `lab6/docs/screenshots/`), добавить WebSocket для live-обновлений или подготовить production-образ Docker.
