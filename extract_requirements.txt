@@ -1,0 +1,10 @@
+pypdf2==3.0.1
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+sqlmodel==0.0.8
+alembic==1.11.1
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+pytest==7.4.2
+httpx==0.24.1
+python-multipart==0.0.6

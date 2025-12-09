@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+  <rect width="1200" height="500" fill="#ffffff"/>
+  <text x="40" y="48" font-family="Arial" font-size="28" fill="#343a40">Управление оборудованием — (заглушка)</text>
+  <g transform="translate(40,80)">
+    <rect x="0" y="0" width="1120" height="380" rx="8" fill="#f8f9fa" stroke="#e9ecef"/>
+    <text x="20" y="36" font-family="Arial" font-size="16" fill="#6c757d">Таблица оборудования — список, статус, загрузка, действия</text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+fastapi>=0.95.0,<1.0.0
+uvicorn[standard]>=0.22.0,<1.0.0
+sqlmodel>=0.0.8
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt,argon2]>=1.7.4
+python-multipart>=0.0.6
+httpx>=0.24.1
+alembic>=1.11.1
+psycopg2-binary>=2.9.6
+pydantic-settings>=2.0.0
