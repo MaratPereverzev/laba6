@@ -56,64 +56,6 @@ docker compose up --build
 - Регистрация и аутентификация (JWT)
 - Управление оборудованием (CRUD)
 - Управление производственными заказами с приоритетами
-# MES — Manufacturing Execution System (Лабораторная работа 6)
-
-Полнофункциональная демонстрационная система управления производством (MES) — фронтенд на React + Vite, бэкенд на FastAPI, PostgreSQL и Redis. Проект демонстрирует мониторинг оборудования в реальном времени, управление заказами, сбор KPI и простую аналитику для выявления узких мест.
-
-![Dashboard](lab6/docs/screenshots/dashboard.svg)
-
----
-
-**Коротко:** система поддерживает роли пользователей (dispatcher/planner/admin), CRUD для оборудования, заказов и операций, события оборудования, хранение KPI и аналитические эндпойнты.
-
-## Быстрый старт
-
-1. Откройте проект:
-
-```bash
-cd /home/marat/Desktop/laba6
-```
-
-2. Убедитесь, что установлены: `docker` и `docker compose`.
-
-3. Запустите всё в контейнерах (сборка при первом запуске):
-
-```bash
-docker compose up --build
-```
-
-4. Откройте:
-
-- Frontend: http://localhost:3000
-- Swagger (API docs): http://localhost:8000/docs
-
-> По умолчанию seed-скрипт создаёт администратора:
->
-> ```
-> Email: admin@example.com
-> Password: admin123
-> ```
-
-## Структура репозитория
-
-```
-/home/marat/Desktop/laba6
-├─ backend/                 # FastAPI приложение
-│  ├─ app/
-│  ├─ Dockerfile
-│  └─ requirements.txt
-├─ frontend/                # React + Vite приложение
-│  ├─ src/
-│  ├─ Dockerfile
-│  └─ package.json
-└─ docker-compose.yml
-```
-
-## Возможности
-
-- Регистрация и аутентификация (JWT)
-- Управление оборудованием (CRUD)
-- Управление производственными заказами с приоритетами
 - Операции, связываемые с заказами и оборудованием
 - Сбор событий оборудования (simple event logs)
 - KPI (OEE, availability, performance, quality)
@@ -143,7 +85,7 @@ docker compose up --build
 - `OrdersManager` — создание/фильтрация заказов
 - `Login` / `Register` — аутентификация
 
-![Equipment manager](lab6/docs/screenshots/equipment.svg)
+![Equipment manager](docs/screenshots/equipment.png)
 
 ---
 
@@ -158,7 +100,7 @@ docker compose up --build
 
 Скриншот (заглушка):
 
-![Dashboard](/lab6/docs/screenshots/dashboard.svg)
+![Dashboard](/docs/screenshots/dashboard.png)
 
 ### 2) Equipment (Управление оборудованием)
 
@@ -169,7 +111,7 @@ docker compose up --build
 
 Скриншот (заглушка):
 
-![Equipment](/lab6/docs/screenshots/equipment.svg)
+![Equipment](/docs/screenshots/equipment.png)
 
 ### 3) Orders (Заказы)
 
@@ -180,7 +122,7 @@ docker compose up --build
 
 Скриншот (заглушка):
 
-![Orders](/lab6/docs/screenshots/orders.svg)
+![Orders](/docs/screenshots/orders.png)
 
 ### 4) Operations (Операции)
 
@@ -191,7 +133,7 @@ docker compose up --build
 
 Скриншот (заглушка):
 
-![Operations](/lab6/docs/screenshots/operations.svg)
+![Operations](/docs/screenshots/operations.png)
 
 ### 5) Events (События оборудования)
 
@@ -202,7 +144,7 @@ docker compose up --build
 
 Скриншот (заглушка):
 
-![Events](/lab6/docs/screenshots/events.svg)
+![Events](/docs/screenshots/events.png)
 
 ### 6) KPI (Метрики и тренды)
 
@@ -213,7 +155,7 @@ docker compose up --build
 
 Скриншот (заглушка):
 
-![KPI](/lab6/docs/screenshots/kpis.svg)
+![KPI](/docs/screenshots/kpis.png)
 
 ### 7) Auth (Аутентификация)
 
@@ -223,7 +165,7 @@ docker compose up --build
 
 Скриншот (заглушка):
 
-![Auth](/lab6/docs/screenshots/auth.svg)
+![Auth](/docs/screenshots/auth.png)
 
 ---
 
