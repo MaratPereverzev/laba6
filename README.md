@@ -223,7 +223,6 @@ INITIAL_ADMIN_PASSWORD=admin123
 - WebSocket/Server-Sent Events для настоящего realtime
 - RBAC / расширенные роли и права
 - Export PDF/Excel отчетов
-- Интеграция с PLC/SCADA через MQTT/OPC UA
 - ML-прогноз отказов и оптимизация расписания
 
 # Никита Владимирович, порекомендуйте на автомат, пожалуйста
